@@ -1,8 +1,8 @@
-# rpi-faceswap
+# rpi-word-rnn
 
-Face swapping with *Python, dlib*, and *OpenCV* for **Raspberry Pi**
+Multi-layer Recurrent Neural Networks (LSTM, RNN) for word-level language models in Python using TensorFlow for **Raspberry Pi**
 ### How To run
-You need two images: **head.jpg** **and face.jpg** 
-Put both in a folder, like "images" in the example:
+You need one book: **input.txt** 
+Put both in a folder, like "text" in the example:
 
-`docker run --rm -v /home/user/images:/root/faceswap/files vitharme/rpi-faceswap`
+`docker run --rm -v /home/user/text:/root/word-rnn-tensorflow/data/tinyshakespeare/`
